@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/index.css">
+    <title>Timer</title>
+   
+</head>
+<body>
+    <div class="containerDiv">
+        <div class="timer-container">
+            <h1>Multipurples Timer</h1>
+            <input type="number" class="time-input" id="timeInput" placeholder="Set time in seconds" min="1">
+            <div class="progress-bar">
+                <div class="progress" id="progress"><span id="progressText">0%</span></div>
+            </div>
+            <span class="time-up-message" id="timeUpMessage">Time up!</span>
+            <div class="controls">
+                <button id="startBtn">Start</button>
+                <button id="resetBtn" disabled>Reset</button>
+            </div>
+            <audio id="beepSound" src="./src/sound/beep-01a.wav"></audio>
+
+        </div>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/abdulwasiu-abubakar-419511238/">
+                <img src="./src/images/Likedin.png" alt="Twitter" loading="lazy" class="socicon">
+            </a>
+            <a href="https://github.com/DonMalenko">
+                <img src="./src/images/GitHub icon.png" alt="Twitter" loading="lazy" class="socicon">
+            </a>
+            <a href="https://www.facebook.com/abdulwasiuabubakr94">
+                <img src="./src/images/facebook-icon.png" alt="Twitter" loading="lazy" class="socicon">
+            </a>
+            <a href="https://x.com/Donmalenko09">
+                <img src="./src/images/x icon.png" alt="Twitter" loading="lazy" class="socicon">
+            </a>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="date"></p>
+        <p>Abdulwasiu Abubakar</p>
+    </div>
+    
+
+</body>
+    <script src="./src/index.js"></script>
+
+</html>
